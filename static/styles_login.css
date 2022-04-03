@@ -1,0 +1,158 @@
+/*
+Team members
+
+Alok, Amlan - 1001855861
+Khadabadi, Rakshita Kadappa, - 1001865656
+Vadla, Saikishore chary - 1001851300
+*/
+
+body {
+  background-color: #c1ddc4
+}
+
+.topnav {
+  /* margin:0% 1% 0% 1%; */
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+
+.fa {
+
+  float: right;
+  padding: 15px 15px;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #2e0f0f;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+
+.topnav a:hover {
+  background-color: rgb(123, 174, 197);
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #228417;
+  color: white;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+.button1 {
+  background-color: #030803;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  font-size: 10px;
+  margin: 20px 0px 20px 25px;
+  float: right;
+
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: #090f11;
+  border: none;
+  color: white;
+  float: right;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 20px 0px 20px 25px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {}
+}
+
+
+@media only screen and (min-width: 600px) {
+  body {}
+}
+
+
+@media only screen and (min-width: 768px) {
+  body {}
+}
+
+
+@media only screen and (min-width: 992px) {
+  body {}
+}
+
+
+@media only screen and (min-width: 1200px) {
+  body {}
+}
+
+.text1 {
+  text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 10px 0 6px 0;
+}
+
+
+img.avatar {
+  width: 20%;
+  border-radius: 30%;
+}
+
+
+.container {
+  margin: 4% 30% 0% 30%;
+  padding: 0 16px 16px;
+}
+
+
+span.psw {
+  float: right;
+
+}
