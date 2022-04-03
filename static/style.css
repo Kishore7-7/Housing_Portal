@@ -1,0 +1,343 @@
+/*
+Team members
+
+Alok, Amlan - 1001855861
+Khadabadi, Rakshita Kadappa, - 1001865656
+Vadla, Saikishore chary - 1001851300
+*/
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color:#FDF8F5 ;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    padding: 40px;
+
+}
+.topnav {
+    overflow: hidden;
+    background-color: #E8CEBF;
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: center;
+    color: #4F4846;
+    font-size: 30px;
+    font-family: cursive;
+}
+.topnav a {
+    float: right;
+    color: #4F4846;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin-left: 100px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: #111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.name{
+    list-style-type: none;
+  margin-left: 100px;
+  padding: 0px;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Akaya Telivigala', cursive; font-size: 23px;color: dodgerblue;
+}
+ul.topnav li a:hover:not(.active) {background-color: blue;}
+
+ul.topnav li a.active {background-color: #023e8a;}
+
+ul.topnav li.right {float: right;}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    
+  }
+  
+  .flex-container > div {
+    
+    color: black;
+    margin: -30px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 24px;
+  }
+
+  input[type=text],[type=email],[type=password],[type=tel],[type=email], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+    margin-top: 6px;
+    margin-bottom: 5px;
+  }
+
+  .ContactUsForm{
+    width: 100%;
+    align-content: center;
+    background-color: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #4F4846;
+
+  }
+  ::placeholder{
+      text-align: center;
+      color: #4F4846;
+  }
+  
+input[type=submit],[type=reset] {
+    background-color: #266150;
+    color: FDF8F5;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    align-content: center;
+    color: white;
+  }
+  #parent {
+    display: flex;
+    justify-content: space-between;
+  }
+  #narrow {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0px 76px;
+  }
+  #wide {
+    flex: 1;
+  } 
+.contact-us{
+    width: 100%;
+  /* padding: 10px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+.contact_container {
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0px 150px; */
+  }
+
+#ole_phone_number {
+    line-height: 10px;
+    font-size: 18px;
+    color: #4F4846;
+}
+h2.normal {
+    font-weight: 400;
+}
+.bg_img{
+    width:100%; 
+    border:"0"
+}
+.footer{
+    background-color: #E8CEBF;
+    padding: 6px;
+    margin: auto;
+    color: #4F4846;
+}
+
+.login-button {
+  background-color: #005f69;
+  color: white;
+  height: 35px;
+  width: 60px;
+}
+
+.building-dropdown-list {
+    display: none;
+}
+
+.apartment-dropdown-list {
+    display: none;
+}
+
+.hide {
+  display: none;
+}
+
+/*#building-dropdown {
+    display: none;
+}*/
+
+/*#building-subdivision-1{
+    display: none;
+}*/
+
+
+/* @media (min-width: 768px) {
+    .container .contact_container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container .contact_container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container .contact_container{
+        width: 1170px;
+    }
+} */
+
+/* @media only screen and (max-width:800px) {
+    
+    .container .contact_container {
+      width: 80%;
+      padding: 0;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    
+    .container .contact_container {
+      width: 70%;
+    }
+  } */
+
+/* About-Us CSS*/
+.avatar{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 4px solid #d3d8d3;
+ }
+ img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.content1{
+    text-align: center;
+    font-size:large;
+    margin-bottom:2%;
+}
+.text1{
+    text-align: center;
+}
+.column {
+    margin: 1%;
+    float: left;
+    width: 35%;
+    padding: 5px;
+}
+.column1{
+    margin: 1%;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.skill-row{
+    margin: 30px 20px;
+    text-align: left;
+ 
+}
+ .img{
+   margin-left: 10px;
+   margin-right: 10px;
+   border-radius: 30%;
+   width: 10%;
+   float: left;
+ 
+}
+ h3{
+   padding-top: 15px;
+   margin: 10px;
+}
+
+/* Media Queries*/
+  @media only screen and (max-width: 600px) {
+    .container.contact_container {border-radius: 0px;}
+
+    #parent{
+        flex-direction: column;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .container .contact_container {border-radius: 0px;}
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .container .contact_container {border-radius: 0px;}
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .container .contact_container {width: fit-content;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .container{
+        width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .contact_container {width: fit-content;}
+  }
+ 
